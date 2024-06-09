@@ -1,0 +1,16 @@
+apiVersion: v2
+name: iam-components
+description: Umbrella Chart for the DOME Marketplace iam-components
+type: application
+version: 0.0.1
+appVersion: 0.0.1
+dependencies:
+  - name: iam-components
+    version: 0.1.0
+    repository: https://dome-marketplace.github.io/iam-components
+  - name: trusted-issuers-registry
+    version: 0.0.11
+    repository: https://fiware.github.io/helm-charts
+  - name: orion
+    version: 1.2.6
+    repository: https://fiware.github.io/helm-charts
